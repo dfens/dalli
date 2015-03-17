@@ -1,3 +1,5 @@
+require 'rbconfig'
+
 begin
   require 'kgio'
   puts "Using kgio socket IO" if defined?($TESTING) && $TESTING
